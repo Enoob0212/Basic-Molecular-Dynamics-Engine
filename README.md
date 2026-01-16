@@ -108,6 +108,7 @@ Responsibilities
 - Speed distributions
 
 **Special Notes**
-Simulations can take anywhere from 30 seconds to 10 minutes, depending on the time steps, simulation time, and temperature. It's recommended that for KbT <= 1, run simulations with dt = 0.002 and simulation_time >= 25.0. Not doing so may cause the system not to equilibrate and/or the physics breaks down. 
+- Simulations can take anywhere from 30 seconds to 10 minutes, depending on the time steps, simulation time, and temperature.
+- It's recommended that for KbT <= 1, run simulations with dt = 0.002 and simulation_time >= 25.0. Not doing so may cause the system not to equilibrate and/or the physics breaks down. 
 
 
